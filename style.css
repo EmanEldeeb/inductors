@@ -1,0 +1,36 @@
+.box .prog {
+  position: relative;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.box .prog .prog-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.box .prog .indector {
+  position: absolute;
+  left: 50%;
+  width: 3px;
+  height: 15px;
+  background-color: #0000007a;
+  transform-origin: 50% 150px;
+}
+
+.sub-indicator {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #212529bd;
+  z-index: 1000;
+  overflow-y: auto;
+}
